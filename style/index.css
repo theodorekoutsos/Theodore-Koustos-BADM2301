@@ -1,24 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;700&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
-    background-color: white;
+    color: #303030;
+    background-color: #CFF5FF;
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: #6FC2F1;
+    color: #CFF5FF;
     text-align: center;
     padding: 0.25rem;
 }
 
 nav {
-    background-color: black;
+    background-color: #6FC2F1;
+    color: #CFF5FF;
     text-align: right;
-    padding: 0.75rem 0.5rem;
+    padding: 0.6rem 0.5rem;
 }
 
 nav > ul {
@@ -34,13 +37,13 @@ nav > ul > li {
 
 nav > ul > li > a {
     text-decoration: none;
-    color: #fff;
+    color: #CFF5FF;
     padding: 0.75rem 0.5rem;
 }
 
 nav > ul > li > a:hover {
-    background-color: white;
-    color: black;
+    background-color: #CFF5FF;
+    color: #303030;
 }
 
 #content {
@@ -80,8 +83,8 @@ p {
 }
 
 footer {
-    background-color: black;
-    color: #fff;
+    background-color: #6FC2F1;
+    color: #2E8CB9;
     text-align: center;
     padding: 0.25rem;
     min-height: 3rem;
